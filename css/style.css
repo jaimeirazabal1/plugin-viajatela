@@ -1,0 +1,551 @@
+
+* { margin: 0px;padding: 0px;}
+html, body { height: 100%;}
+#home-top{
+	margin-bottom: 60px !important;
+}
+#main-content{
+	width:100% !important;
+	height:700px !important;
+	margin-bottom: 60px !important;
+
+}
+#viajatela-com-buscador{
+	padding: 0px;
+	width:100% !important;
+	height:700px !important;	
+	margin-bottom: 60px;
+}
+#contenido {
+	position:absolute;
+	left:0px;
+	background-color:#000000;
+	min-height: 100%;
+
+	height: 100%;
+	width:100%;
+	background-image: url("../IMG/background_nyc.jpg");
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+}
+
+
+.div_caja_busqueda{
+
+	position: relative;
+	width:40%;
+	margin:auto;
+	/*border:1px solid white;*/
+	text-align: center;
+}
+.capa_borde_negro{
+	height:30px;
+	background: transparent;
+	position: absolute;
+	top: 20px;
+	width:99%;
+	border:4px solid transparent;
+	z-index: 2;
+	border-radius: 0px 0px 13px 13px;
+}
+.caja_busqueda{
+	position: relative;
+	margin-top:100px;
+	z-index: 3;
+}
+
+.caja_busqueda input[type='search']{
+	height:50px;
+	width:100%;
+	border:1px solid #34d4ad;
+	padding: 5px 50px 5px 90px;
+	border-radius: 12px;
+	font-size: 20px;
+	color: #3a4d7f;
+	font-style: italic;
+	z-index: 6;
+}
+.linea_buscador_azul{
+	border-left: 1px solid #34d4ad;
+	position: absolute;
+	left:80px;
+	top:10px;
+	height:30px;
+}
+.icono-avion{
+	position: absolute;
+	left:20px;
+	top:10px;
+	height:35px;
+}
+.icono-lupa{
+	position: absolute;
+	right:20px;
+	top:10px;
+	height:20px;
+}
+.icono-lupa:hover{
+	cursor:pointer;
+}
+.icono-location{
+	position: absolute;
+	left:30px;
+	top:40%;
+}
+.texto_caja_busqueda{
+	position: relative;
+	padding: 20px 30px 10px 90px;
+	background-color: #e7e4dc;
+	color:#3a4d7f;
+	text-align: left;
+	border-radius: 0px 0px 25px 25px;
+	font-family: Arial, Helvetica, Verdana;
+	z-index: 1;
+	opacity:0.5;
+
+}
+.capa_de_datos_usuario{
+	width:40%;
+	margin:90px auto auto auto;
+	/*border:1px solid white;*/
+}
+.div_texto_linea{
+	position: relative;
+
+}
+.linea{
+	z-index: 1;
+	line-height: 10%;
+	height:1px;
+	background-color: white;
+	width: 25%;
+	display: inline-block;
+	top:10px;
+}
+.mensaje_promocion p{
+	z-index: 3;
+	color:white;
+	font-weight: bold;
+	margin:auto;
+	font-family: Arial, Helvetica, Verdana;
+	background-color:transparent;
+	display: inline-block;
+	padding:5px;
+	width: 70%;
+	position: relative;
+}
+.div_inputs{
+	padding-top: 15px;
+	position: relative;
+	text-align: center;
+}
+.div_inputs_usuario{
+	position: relative;
+}
+.icono-name{
+	height:13px;
+	position: absolute;
+	top:6px;
+	left:12px;
+}
+.icono-mail{
+	height:13px;
+	position: absolute;
+	top:6px;
+	left:12px;
+}
+.div_inputs .div_inputs_usuario,.div_inputs .div_inputs_email,.div_inputs .div_btn_ahorra_ya{
+	display: inline-block;
+	position: relative;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.inputs_datos_usuario{
+	border:1px solid #34d4ad;
+	border-radius: 5px;
+	height: 25px;
+	margin-left:5px;
+	padding-left:30px;
+	color:#475887;
+	font-style: italic;
+}
+.inputs_datos_email{
+	border:1px solid #34d4ad;
+	border-radius: 5px;
+	height: 25px;
+	margin-left:5px;
+	padding-left:30px;
+	color:#475887;
+	font-style: italic;
+}
+.div_btn_ahorra_ya input[type='submit']{
+	width:167px;
+	height: 27px;
+	border-radius: 5px;
+	margin-left:5px;
+	border:3px solid #34d4ad;
+	font-weight: bold;
+	font-family: Arial, Helvetica, Verdana;
+	color:white;
+	background-color: #34d4ad;
+}
+.div_btn_ahorra_ya input[type='submit']:hover{
+	cursor: pointer;
+	background-color: #4CCDC0;
+	color:#484848;
+}
+.div_btn_ahorra_ya input[type='submit']:active{
+	cursor: pointer;
+	background-color: #4CCDC0;
+	color:#000000;
+	border:inline;
+
+}
+.borde_abajo{
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	border-bottom: 1px solid white;
+}
+.clearfix{
+	clear:both;
+}
+.franja_superior_azul{
+	background-color: #34d4ad;
+	height: 60px;
+}
+.franja_busqueda{
+	background-color: #f4f4f4;
+	min-height: 120px;	
+	position: relative;
+	padding-bottom:10px;
+}
+
+.div_inputs_busqueda{
+	position: relative;
+	/*border:1px solid black;*/
+	width:80%;
+	margin:auto;
+	height: 100%;
+
+}
+.div_inputs_busqueda .label_input{
+	font-family: "Times New Roman", Georgia, Serif;
+	color: #353535;
+	margin-top: 40px;
+	display: inline-block;
+	position: relative;
+}
+.div_inputs_busqueda .label_input label{
+
+}
+.div_inputs_busqueda .label_input input[type='text'],.div_inputs_busqueda .label_input input[type='number']{
+	height: 30px;
+	border:1px solid #e1e1e1;
+	border-radius: 5px;
+	background-color: white;
+	margin-top: 5px;
+	padding-left: 35px;
+	color:#b3b3b3;
+}
+#origen,#destino{
+	padding-left: 0px !important;
+}
+.div_inputs_busqueda .label_input input[type='submit']{
+	width:182px;
+	height:32px;
+	color:white;
+	background-color:#34d4ad; 
+	border:0px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+.div_inputs_busqueda .label_input input[type='submit']:hover{
+	background-color:#0BCC90; 
+	color:white;
+	cursor: pointer;
+}
+.div_inputs_busqueda .label_input input[type='submit']:active{
+
+	color:#393939;
+
+}
+.linea_input_busqueda{
+	position: absolute;
+	height:25px;
+	width:1px;
+	background-color: #e7e7e7;
+	left:30px;
+	top:28px;
+}
+.icon-calendar,.icon-name-buscador{
+	position: absolute;
+	top:30px;
+	left:8px;
+	height:18px;
+}
+.tabla_resultados{
+	width:80%;
+	/*border:1px solid white;*/
+	margin:auto;
+	height:250px;
+	margin-top:50px;
+	position: relative;
+	margin-bottom: 30px;
+}
+.encabezado{
+	position: relative;
+	background-color: #3a4d7f;
+	height: 50px;
+}
+.icon-plain-left{
+	position: absolute;
+	left:120px;
+	top:10px;
+}
+.icon-plain-right{
+
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    	position: absolute;
+	left:120px;
+	top:10px;
+
+}
+.encabezado p{
+
+	margin-left: 200px;
+	color:white;
+	font-family: Arial, Helvetica, Verdana;
+	font-weight: bold;
+	line-height: 50px;
+}
+.flecha_azul{
+
+	color: #34d4ad;
+	font-weight: bold;
+
+	left:310px;
+	top:17px;
+}
+.informacion_buscada{
+	background-color: #ebebeb;
+	height:80px;
+	border-radius: 0px 0px 50px 0px;
+}
+.ida,.vuelta{
+	position: relative;
+}
+.vas_volves{
+	top:-10px;
+	background-color: #34d4ad;
+	height: 60px;
+	width:100px;
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, Verdana;
+	font-weight: bold;
+	line-height: 60px;
+	position: absolute;
+}
+.comprar_resultado{
+	position: absolute;
+	background-color: #34d4ad;
+	height:270px;
+	right:0px;
+	width:280px;
+	top:-10px;
+	border-radius: 0px 0px 40px 0px;
+}
+.icon-money{
+	z-index: 4;
+	background-color: #34d4ad;
+	padding:8px;
+	position: absolute;
+	margin:auto;
+	left:120px;
+	top:10px;
+}
+.linea_uno_blanca{
+	position: relative;
+	width: 90%;
+	height:1px;
+	background-color: white;
+	margin: 25px auto auto auto;
+}
+.linea_dos_blanca{
+	position: absolute;
+	width: 90%;
+	height:1px;
+	background-color: white;
+	left:10px;
+	bottom: 20px;
+}
+.precio_resultado p{
+	position: relative;
+	left:10px;
+	color:white;
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 100px;
+}
+.aerolinea{
+	position: relative;
+	width:100px;
+	height: 80px;
+	border-right: 1px solid #cccccc;
+	float: left;
+	vertical-align: center;
+	margin-left: 5px;
+}
+.icono-aerolinea{
+	position: absolute;
+	left: 20px;
+	line-height: 100px;
+
+}
+.fecha_ida{
+	position: relative;
+	width: 17%;
+	height: 80px;
+	border-right: 1px solid #cccccc;
+	float: left;
+	vertical-align: center;
+	line-height: 80px;
+	color:#3a4d7f;
+	font-family: Arial, Helvetica, Verdana;
+	font-weight: bold;
+	font-size: 20px;
+}
+.icon-calendar-results,.icon-time-results{
+	position: absolute;
+	top:28px;
+	left:15px;
+	width: 20px;
+}
+.hora_ida{
+	width: 17%;
+	border-right: 1px solid #cccccc;
+	float: left;
+	height: 80px;
+}
+
+.hora_ida p{
+	position: relative;
+	color:#3a4d7f;
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 20px;
+	margin-top: 15px;
+	float:left;
+	margin-left: 12px;
+
+}
+.hora_hora{
+	position: relative;
+	color:#3a4d7f;
+	font-family: Arial, Helvetica, Verdana;
+	border-right: 1px solid #cccccc;
+	font-size: 20px;
+	float: left;
+	width: 17%;
+	height: 80px;
+	font-style: italic;
+	vertical-align: center;
+	line-height: 80px;
+}
+.escala{
+	position: relative;
+	color:#3a4d7f;
+	font-family: Arial, Helvetica, Verdana;
+	width: 14%;
+	font-size: 20px;
+	float: left;
+	text-align: center;
+	height: 80px;
+	font-style: italic;
+	vertical-align: center;
+	line-height: 80px;	
+}
+.texto_loco_comprar{
+	color:white;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.btn-comprar{
+	background-color: #3a4d7f;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	height: 60px;
+	border:1px solid #263764;
+	border-radius: 10px;
+	padding: 15px 40px 15px 40px;
+	margin-top: 5px;
+}
+.btn-comprar:hover{
+	background-color: #4663B0;
+	cursor: pointer;
+}
+.btn-comprar:active{
+	cursor: pointer;
+	background-color: #313C5A;
+	color:#FFFFFF;	
+}
+.cajita_techo_izquierdo{
+
+	position: absolute;
+
+	height:5px;
+	width:8px;
+	left:100px;
+	top:-10px;
+
+	display:block;
+	margin:0 auto;
+	width:0;
+	height:0;
+	border-color:transparent transparent #51BBA1 #51BBA1;
+	border-style:solid;
+	border-width:6px;
+}
+.cajita_techo_izquierda_2{
+
+
+	position: absolute;
+
+	height:5px;
+	width:8px;
+	left:100px;
+	top:-10px;
+
+	display:block;
+	margin:0 auto;
+	width:0;
+	height:0;
+	border-color:transparent transparent #51BBA1 #51BBA1;
+	border-style:solid;
+	border-width:6px;
+ 	background-color: #ebebeb;
+   
+}
+.cajita_techo_derecho{
+
+	position: absolute;
+
+	height:5px;
+	width:8px;
+	left:-10px;
+	top:-1px;
+
+	display:block;
+	margin:0 auto;
+	width:0;
+	height:0;
+	border-color:transparent #51BBA1 #51BBA1 transparent;
+	border-style:solid;
+	border-width:6px;
+}

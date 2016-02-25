@@ -1,0 +1,421 @@
+@media only screen and (max-width: 320px) {
+  
+
+    .comprar_resultado{
+    	position: relative;
+    	float: left;
+    	width: 100%;
+    	border-radius: 0px 0px 0px 0px;
+    }
+    .cajita_techo_derecho{
+    	display: none;
+    }
+    .informacion_buscada{
+    	border-radius: 0px 0px 0px 0px;
+    	margin-bottom: 30px;
+
+    }
+
+    .icon-plain-right,.icon-plain-left{
+    	display: none;
+    }
+    .icono-aerolinea{
+    	margin:auto;
+    	text-align: center;
+    	position: relative;
+    	width: 100px
+    }
+    .encabezado p{
+    	margin-left: 120px;
+    	font-size: 10px;
+    	position: absolute;
+    	left:0px;
+    }
+   	.aerolinea,.fecha_ida,.hora_ida,.hora_hora,.escala{
+   		display: inline-block;
+   		width: 100%;
+   		height: auto;
+   		background-color: #ebebeb;
+   		border-bottom: 1px solid #cccccc;
+   		height:80px;
+   		text-align: center;
+   	}
+    .icon-money{
+    	margin-top: 10px;
+    	margin-left: 0px;
+    }
+    .linea_uno_blanca{
+    	top:10px;
+    }
+    .precio_resultado p{
+    	font-size: 25px;
+    	text-align: center;
+    	margin-top: 20px;
+    	margin-right: 50px;
+    	height: 60px;
+    }
+    .tabla_resultados{
+    	width: 95%;
+    }
+}
+@media only screen and (max-width: 360px) {
+  
+
+    .comprar_resultado{
+    	position: relative;
+    	float: left;
+    	width: 100%;
+    	border-radius: 0px 0px 0px 0px;
+    }
+    .cajita_techo_derecho{
+    	display: none;
+    }
+    .informacion_buscada{
+    	border-radius: 0px 0px 0px 0px;
+    	margin-bottom: 30px;
+
+    }
+    .cajita_techo_izquierda_2{
+        position: absolute;
+
+        height:5px;
+        width:8px;
+        left:100px;
+        top:-10px;
+
+        display:block;
+        margin:0 auto;
+        width:0;
+        height:0;
+        border-color:#ebebeb #ebebeb #51BBA1 #51BBA1;
+        border-style:solid;
+        border-width:6px;
+        background-color: #ebebeb;        
+    }
+    .icon-plain-right,.icon-plain-left{
+    	display: none;
+    }
+    .icono-aerolinea{
+    	margin:auto;
+    	text-align: center;
+    	position: relative;
+    	width: 100px
+    }
+    .encabezado p{
+    	margin-left: 120px;
+    	font-size: 10px;
+    	position: absolute;
+    	left:0px;
+    }
+    .icon-calendar-results,.icon-time-results{
+        left: 150px !important;
+    }
+    .hora_hora{
+        width: 100%;
+    }
+   	.aerolinea,.fecha_ida,.hora_ida,.hora_hora,.escala{
+   		display: inline-block;
+   		width: 100% !important;
+   		height: auto;
+   		background-color: #ebebeb;
+   		border-bottom: 1px solid #cccccc;
+   		height:80px;
+   		text-align: center;
+   	}
+    .hora_ida p{
+        position: relative;
+        color:#3a4d7f;
+        font-family: Arial, Helvetica, Verdana;
+        font-size: 20px;
+        margin-left: 30px;
+
+    }
+    .icon-money{
+    	margin-top: 10px;
+    	margin-left: 0px;
+    }
+    .linea_uno_blanca{
+    	top:10px;
+    }
+    .precio_resultado p{
+    	font-size: 25px;
+    	text-align: center;
+    	margin-top: 20px;
+    	margin-right: 50px;
+    	height: 60px;
+    }
+    .tabla_resultados{
+    	width: 95%;
+    }
+}
+@media only screen and (max-width: 768px) {
+  
+
+    .comprar_resultado{
+    	position: relative;
+    	float: left;
+    	width: 100%;
+    	border-radius: 0px 0px 0px 0px;
+    }
+    .cajita_techo_derecho{
+    	display: none;
+    }
+    .informacion_buscada{
+    	border-radius: 0px 0px 0px 0px;
+    	margin-bottom: 30px;
+
+    }
+
+    .icon-plain-right,.icon-plain-left{
+    	display: block;
+    }
+    .icono-aerolinea{
+    	margin:auto;
+    	text-align: center;
+    	position: relative;
+    	width: 70px
+    }
+    .icon-calendar-results{
+    	top: 4px;
+    	left: 45px !important;
+    }
+    .icon-time-results{
+    	top: 6px;
+    	left: 55px !important;    	
+    }
+    .encabezado p{
+    	margin-left: 120px;
+    	font-size: 20px;
+    	position: absolute;
+    	left:100px;
+    }
+   	.hora_ida{
+   		width: 200px;
+   	}
+   	.hora_hora{
+   		width: 150px !important;
+   	}
+   	.cajita_techo_izquierda_2{
+   		background-color: black;
+   	}
+    .icon-money{
+    	margin-top: 10px;
+    	margin-left: 220px !important;
+    }
+    .linea_uno_blanca{
+    	top:10px;
+    }
+    .precio_resultado p{
+    	font-size: 25px;
+    	text-align: center;
+    	margin-top: 20px;
+    	margin-right: 50px;
+    	height: 60px;
+    }
+    .tabla_resultados{
+    	width: 95%;
+    }
+}
+@media only screen and (max-width: 800px) {
+  
+
+    .comprar_resultado{
+    	position: relative;
+    	float: left;
+    	width: 100%;
+    	border-radius: 0px 0px 0px 0px;
+    }
+    .cajita_techo_derecho{
+    	display: none;
+    }
+    .informacion_buscada{
+    	border-radius: 0px 0px 0px 0px;
+    	margin-bottom: 30px;
+
+    }
+
+    .icon-plain-right,.icon-plain-left{
+    	display: block;
+    }
+    .icono-aerolinea{
+    	margin:auto;
+    	text-align: center;
+    	position: relative;
+    	width: 70px
+    }
+    .icon-calendar-results{
+    	top: 4px;
+    	left: 50px;
+    }
+    .icon-time-results{
+    	top: 6px;
+    	left: 60px;    	
+    }
+    .encabezado p{
+    	margin-left: 120px;
+    	font-size: 20px;
+    	position: absolute;
+    	left:100px;
+    }
+   	.hora_ida{
+   		width: 200px;
+   	}
+   	.hora_hora{
+   		width: 150px;
+   	}
+   	.cajita_techo_izquierda_2{
+   		background-color: black;
+   	}
+    .icon-money{
+    	margin-top: 10px;
+    	margin-left: 220px;
+    }
+    .linea_uno_blanca{
+    	top:10px;
+    }
+    .precio_resultado p{
+    	font-size: 25px;
+    	text-align: center;
+    	margin-top: 20px;
+    	margin-right: 50px;
+    	height: 60px;
+    }
+    .tabla_resultados{
+    	width: 95%;
+    }
+}
+@media only screen and (max-width: 980px) {
+  
+
+    .comprar_resultado{
+    	position: relative;
+    	float: left;
+    	width: 100%;
+    	border-radius: 0px 0px 0px 0px;
+    }
+    .cajita_techo_derecho{
+    	display: none;
+    }
+    .informacion_buscada{
+    	border-radius: 0px 0px 0px 0px;
+    	margin-bottom: 30px;
+
+    }
+
+    .icon-plain-right,.icon-plain-left{
+    	display: block;
+    }
+    .icono-aerolinea{
+    	margin:auto;
+    	text-align: center;
+    	position: relative;
+    	width: 70px
+    }
+    .icon-calendar-results{
+    	top: 4px;
+    	left: 70px;
+    }
+    .icon-time-results{
+    	top: 6px;
+    	left: 70px;    	
+    }
+    .encabezado p{
+    	margin-left: 120px;
+    	font-size: 20px;
+    	position: absolute;
+    	left:100px;
+    }
+   	.hora_ida{
+   		width: 200px;
+   	}
+   	.hora_hora{
+   		width: 200px;
+   	}
+   	.cajita_techo_izquierda_2{
+   		background-color: black;
+   	}
+    .icon-money{
+  
+    }
+    .linea_uno_blanca{
+    	top:10px;
+    }
+    .precio_resultado p{
+    	font-size: 25px;
+    	text-align: center;
+    	margin-top: 20px;
+    	margin-right: 50px;
+    	height: 60px;
+    }
+    .tabla_resultados{
+    	width: 95%;
+    }
+}
+@media only screen and (max-width: 1280px) {
+  
+
+    .comprar_resultado{
+    	position: relative;
+    	float: left;
+    	width: 100%;
+    	border-radius: 0px 0px 0px 0px;
+    }
+    .cajita_techo_derecho{
+    	display: none;
+    }
+    .informacion_buscada{
+    	border-radius: 0px 0px 0px 0px;
+    	margin-bottom: 30px;
+
+    }
+
+    .icon-plain-right,.icon-plain-left{
+    	display: block;
+    }
+    .icono-aerolinea{
+    	margin:auto;
+    	text-align: center;
+    	position: relative;
+    	width: 70px
+    }
+    .icon-calendar-results{
+    	top: 4px;
+    	left: 70px;
+    }
+    .icon-time-results{
+    	top: 6px;
+    	left: 70px;    	
+    }
+    .encabezado p{
+    	margin-left: 120px;
+    	font-size: 20px;
+    	position: absolute;
+    	left:100px;
+    }
+   	.hora_ida{
+   		width: 200px;
+   	}
+   	.hora_hora{
+   		width: 200px;
+   	}
+   	.cajita_techo_izquierda_2{
+   		background-color: black;
+   	}
+    .icon-money{
+    	margin-top: 10px;
+    	margin-left: 460px;
+    }
+    .linea_uno_blanca{
+    	top:10px;
+    }
+    .precio_resultado p{
+    	font-size: 25px;
+    	text-align: center;
+    	margin-top: 20px;
+    	margin-right: 50px;
+    	height: 60px;
+    }
+    .tabla_resultados{
+    	width: 95%;
+    }
+}
